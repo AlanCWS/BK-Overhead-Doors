@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+  <link rel="shortcut icon" href="img/BK-OverHead-Doors.jpg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Hind+Siliguri:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+</head>
+
+<body>
+  <nav class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+        <a href="index.html">BK OverHead Doors</a>
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="our-services.html">Our Services</a></li>
+      <li><a href="contact-us.html">Contact Us</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="door-style-type.html">Door Types/Styles</a></li>
+      <li><a href="about-us.html">About Us</a></li>
+    </ul>
+  </nav>
+  <section>
+    <div class="hero-contact-img">
+      <h2 class="hero-contact-img-body">
+        Contact Us
+      </h2>
+    </div>
+  </section>
+  <section>
+    <div class="hero-bottom-img">
+      <img src="img/BK-OverHead-Doors.jpg" alt="Garage-Door-Company">
+    </div>
+  </section>
+  <section>
+    <div class="contact-us-today">
+      <div class="contact-us-today-grid">
+        <div class="contact-us-today-column-01">
+          <h2 class="contact-us-today-header">
+            Contact Us Today!
+          </h2>
+          <p class="contact-us-today-body">
+            Looking for reliable, fast, and affordable garage door solutions? Whether you need a repair, installation,
+            or upgrade, we're the trusted experts who put quality and your satisfaction first. Contact us today and
+            experience seamless service you can count on!
+          </p>
+        </div>
+        <section>
+          <!-- THIS IS a SHARED ASSET -->
+          <form id="contactForm" class="shared-contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" inputmode="numeric" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email Address" required>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="Project Location" required>
+
+            <label for="service">Service Required:</label>
+            <select id="service" name="service" required>
+              <option value="">Select an option</option>
+              <option value="EmergencyService">Emergency Service</option>
+              <option value="RepairNeeded">Repair Needed</option>
+              <option value="DoorInstallation">Door Installation</option>
+              <option value="Estimate">Estimate</option>
+              <option value="Other">Other</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button class="shared-form-btn" type="submit">Submit</button>
+          </form>
+          <script>
+            document.getElementById('contactForm').addEventListener('submit', async (e) => {
+              e.preventDefault(); // Prevent default form submission
+
+              // Form data
+              const formData = new FormData(e.target);
+
+              // Convert to JSON
+              const jsonData = {};
+              formData.forEach((value, key) => {
+                jsonData[key] = value;
+              });
+
+              try {
+                const response = await fetch('https://api.web3forms.com/submit', {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json'
+                  },
+                  body: JSON.stringify({
+                    access_key: 'YOUR_ACCESS_KEY', // Replace with your Web3Forms access key
+                    subject: 'New Customer Message', // Subject line for the email
+                    ...jsonData
+                  })
+                });
+
+                const result = await response.json();
+
+                if (response.ok) {
+                  alert('Your message has been sent successfully!');
+                  e.target.reset(); // Reset the form
+                } else {
+                  console.error('Error:', result);
+                  alert('Failed to send your message. Please try again.');
+                }
+              } catch (error) {
+                console.error('Error:', error);
+                alert('An error occurred while sending your message. Please try again.');
+              }
+            });
+
+          </script>
+        </section>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="why-us-section">
+      <h2 class="why-us-header">
+        Why Choose Our Services
+      </h2>
+      <div class="why-us-grid">
+        <div class="why-us-tile">
+          <img src="img/speech-bubble.png" alt="Our-Garage-Door-Company">
+          <h4 class="why-us-tile-header">
+            Clear Communication
+          </h4>
+          <p class="why-us-tile-body">
+            We take the time to explain the costs involved, ensuring you understand where every dollar goes.
+          </p>
+        </div>
+        <div class="why-us-tile">
+          <img src="img/repairing-service.png" alt="Our-Garage-Door-Company">
+          <h4 class="why-us-tile-header">
+            Customized Solutions
+          </h4>
+          <p class="why-us-tile-body">
+            Every home and business is different—our tailored solutions ensure you get the perfect fit for your needs
+            and style.
+          </p>
+        </div>
+        <div class="why-us-tile">
+          <img src="img/life-insurance (1).png" alt="Licensed-and-Insured-Garage-Door-Company">
+          <h4 class="why-us-tile-header">
+            Licensed and Insured
+          </h4>
+          <p class="why-us-tile-body">
+            Rest assured knowing our fully licensed and insured team has you covered, no matter the scope of the
+            project.
+          </p>
+        </div>
+        <div class="why-us-tile">
+          <img src="img/emergency.png" alt="Emergency-Support-Available-Garage-Door-Company">
+          <h4 class="why-us-tile-header">
+            Emergency Support Available
+          </h4>
+          <p class="why-us-tile-body">
+            Need help right away? Our team is ready to provide 24/7 emergency repairs for your peace of mind.
+          </p>
+        </div>
+        <div class="why-us-tile">
+          <img src="img/customer-support.png" alt="Wide-Range-of-Services-Garage-Door-Company">
+          <h4 class="why-us-tile-header">
+            Wide Range of Services
+          </h4>
+          <p class="why-us-tile-body">
+            From repairs and maintenance to new installations and custom designs, we handle all aspects of garage door
+            care.
+          </p>
+        </div>
+        <div class="why-us-tile">
+          <img src="img/reputation.png" alt="Fast-and-Reliable-Service-Garage-Door-Company">
+          <h4 class="why-us-tile-header">
+            Fast and Reliable Service
+          </h4>
+          <p class="why-us-tile-body">
+            We prioritize your time with prompt responses, on-time appointments, and efficient solutions to get your
+            garage door back in working order quickly.
+          </p>
+        </div>
+        <div class="why-us-tile">
+          <img src="img/rating.png" alt="Expertise-You-Can-Trust-Garage-Door-Company">
+          <h4 class="why-us-tile-header">
+            Expertise You Can Trust
+          </h4>
+          <p class="why-us-tile-body">
+            With years of experience in the industry, we bring unparalleled knowledge and skill to every job, ensuring
+            top-quality workmanship every time.
+          </p>
+        </div>
+        <div class="why-us-tile">
+          <img src="img/flexibility.png" alt="Flexible-Option-Garage-Door-Company">
+          <h4 class="why-us-tile-header">
+            Flexible Options
+          </h4>
+          <p class="why-us-tile-body">
+            We offer pricing tailored to your needs and budget, giving you choices without sacrificing quality.
+          </p>
+        </div>
+      </div>
+      <div class="why-us-button">
+        <a href="our-services.html"><button class="why-us-btn">Our Services</button></a>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="our-location-review-grid">
+      <div class="our-location-column-01">
+        <h2 class="our-location-header">
+          Our Location and Hours
+        </h2>
+        <h4 class="our-location-shared-header">
+          Our Address
+        </h4>
+        <ul class="our-location-shared-info">
+          <li>Fordwich Line, Howick<br> ON NDG, Canada NOG</li>
+        </ul>
+        <h4 class="our-location-shared-header">
+          <span>Phone Number:</span> <a href="tel:+15193575252"> +1 (519) 357-5252</a>
+        </h4>
+        <h4 class="our-location-shared-header">
+          <span>Emergency Number:</span> <a href="tel:+15193575252"> +1 (519) 357-5252</a>
+        </h4>
+        <h4 class="our-location-shared-header">
+          Our Business Hours:
+        </h4>
+        <ul class="our-location-shared-info">
+          <li><span>Monday Thru Friday:</span> 9:00AM To 5:00PM</li>
+          <li><span>Saturday Thru Sunday:</span> 10:00AM To 5:00PM</li>
+          <li><span>Emergency Service:</span> 24/7</li>
+        </ul>
+      </div>
+      <div class="our-reviews-img-link-column-02">
+        <div class="our-reviews-img-link-white-background">
+          <a href="#">View Our Testimonials</a> <br>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="location-served">
+      <h2 class="location-served-header">
+        We Serve the Entire Southwest Ontario Area!
+      </h2>
+      <div class="location-served-grid">
+        <ul class="location-served-column">
+          <li>London</li>
+          <li>Windsor</li>
+          <li>Kitchener</li>
+          <li>Waterloo</li>
+          <li>Guelph</li>
+          <li>Sarnia</li>
+          <li>Cambridge</li>
+          <li>Stratford</li>
+          <li>Chatham</li>
+          <li>Brantford</li>
+          <li>St Thomas</li>
+        </ul>
+        <ul class="location-served-column">
+          <li>Woodstock</li>
+          <li>Leamington</li>
+          <li>Goderich</li>
+          <li>Tilsonburg</li>
+          <li>Ingersoll</li>
+          <li>Listowel</li>
+          <li>Hanover</li>
+          <li>Mount Forest</li>
+          <li>Exeter</li>
+          <li>Amherstburg</li>
+          <li>Kingsville</li>
+        </ul>
+      </div>
+    </div>
+    <div class="not-seeing-location">
+      <h4 class="not-seeing-location-body">
+        Don't see your location? Let us know, and we'll find a way to help you.
+      </h4>
+    </div>
+    <div class="not-seeing-location-button">
+      <a href="#contactForm"><button class="not-seeing-location-btn">Contact Us</button></a>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-column-01">
+        <h2 class="footer-company-name">
+          BK OverHead Doors
+        </h2>
+        <p class="footer-company-mission">
+          At <span>BK OverHead Doors</span>, we specialize in providing durable, stylish, and secure garage doors that
+          enhance the look and safety of your home. From expert installations to reliable repairs, our team is dedicated
+          to delivering exceptional service you can count on every time.
+        </p>
+        <img src="img/BK-OverHead-Doors.jpg" alt="Cleaning-Logo" style="border-radius: 3px;">
+      </div>
+      <div class="footer-column-02">
+        <h2 class="footer-services-header">
+          Quick Links
+        </h2>
+        <ul class="quick-links-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="our-services.html">Our Services</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="door-style-type.html">Door Types/Styles</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-column-03">
+        <h2 class="get-in-touch">
+          Our Information
+        </h2>
+        <ul class="our-information-links">
+          <li><span>Phone:</span> <a href="tel:+15193575252"> +1 (519) 357-5252</a></li>
+          <li><span>Email:</span> <a href="mailto:bkdoors@outlook.com">bkdoors@outlook.com</a></li>
+          <li><span>Business Hours:</span> <br>MONDAY-FRIDAY: 9:00AM-5:00PM <br> SAT-SUN: Closed</li>
+          <li><span>Address:</span> <br> Fordwich Line, Howick<br> ON NDG, Canada NOG </li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-footer">
+      <p class="copyright-information">
+        All RIght Reserved &copy; 2024: Designed by <a href="https://www.craftedwebsolutionsllc.com/">CraftedWeb
+          Solutions LLC</a>
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
