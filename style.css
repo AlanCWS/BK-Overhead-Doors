@@ -894,12 +894,11 @@ button {
   }
 
   .services-we-offer-subheader {
-    font-size: 1.6rem;
-    width: 80%;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #000;
     text-align: center;
     line-height: 1em;
     margin-inline: auto;
+    font-size: 1.8rem;
     margin-top: 0.75rem;
     font-weight: 600;
   }
@@ -2270,7 +2269,7 @@ button {
   }
 
   .choose-us-tile-column-02 img {
-    width: 55%;
+    width: 50%;
     height: 100%;
     max-height: 25rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
@@ -5845,6 +5844,7 @@ REVIEWS.HTML
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
     margin-inline: auto;
     margin-bottom: 2rem;
+    padding-bottom: 1.25rem;
   }
 
   .why-us-tile-grid {
@@ -5869,7 +5869,7 @@ REVIEWS.HTML
 
   .why-us-tile-column-01-body {
     width: 90%;
-    font-weight: 550;
+    font-weight: 500;
     margin-inline: auto;
     line-height: 1.15em;
     text-align: center;
@@ -5949,26 +5949,6 @@ REVIEWS.HTML
     transition: all 0.4s ease-in-out;
   }
 
-
-
-  .why-us-tile-column-02-img-grid {
-    margin-top: 1.25rem;
-    text-align: center;
-    word-spacing: 5rem;
-  }
-
-  .why-us-tile-column-02-img-grid img {
-    width: 15%;
-    height: auto;
-    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
-  }
-
-  .why-us-tile-column-02-img-grid img:hover {
-    border-radius: 50%;
-    transform: scale(1.1);
-    filter: brightness(120%);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-  }
 }
 
 @media only screen and (320px <=width <=768px) and (orientation:landscape) {
@@ -6115,6 +6095,7 @@ REVIEWS.HTML
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
     margin-inline: auto;
     margin-bottom: 2rem;
+    padding-bottom: 1.25rem;
   }
 
   .why-us-tile-grid {
@@ -6139,7 +6120,7 @@ REVIEWS.HTML
 
   .why-us-tile-column-01-body {
     width: 80%;
-    font-weight: 550;
+    font-weight: 500;
     margin-inline: auto;
     line-height: 1.15em;
     text-align: center;
@@ -6177,7 +6158,7 @@ REVIEWS.HTML
 
   .why-us-tile-column-02-img img {
     width: 80%;
-    aspect-ratio: 1/0.55;
+    aspect-ratio: 1/0.60;
     display: block;
     margin-inline: auto;
   }
@@ -6219,24 +6200,6 @@ REVIEWS.HTML
     transition: all 0.4s ease-in-out;
   }
 
-  .why-us-tile-column-02-img-grid {
-    margin-top: 1.5rem;
-    text-align: center;
-    word-spacing: 5rem;
-  }
-
-  .why-us-tile-column-02-img-grid img {
-    width: 11%;
-    height: auto;
-    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
-  }
-
-  .why-us-tile-column-02-img-grid img:hover {
-    border-radius: 50%;
-    transform: scale(1.1);
-    filter: brightness(120%);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-  }
 }
 
 @media only screen and (769px <=width <=1024px) and (orientation:portrait) {
@@ -6409,7 +6372,7 @@ REVIEWS.HTML
 
   .why-us-tile-column-01-body {
     width: 90%;
-    font-weight: 550;
+    font-weight: 500;
     margin-inline: auto;
     line-height: 1.15em;
     text-align: center;
@@ -6447,7 +6410,7 @@ REVIEWS.HTML
 
   .why-us-tile-column-02-img img {
     width: 85%;
-    aspect-ratio: 1/0.55;
+    aspect-ratio: 1/0.65;
     display: block;
     margin-inline: auto;
   }
@@ -6489,24 +6452,6 @@ REVIEWS.HTML
     transition: all 0.4s ease-in-out;
   }
 
-  .why-us-tile-column-02-img-grid {
-    margin-top: 1.5rem;
-    text-align: center;
-    word-spacing: 5rem;
-  }
-
-  .why-us-tile-column-02-img-grid img {
-    width: 15%;
-    height: auto;
-    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
-  }
-
-  .why-us-tile-column-02-img-grid img:hover {
-    border-radius: 50%;
-    transform: scale(1.1);
-    filter: brightness(120%);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-  }
 }
 
 @media only screen and (769px <=width <=1024px) and (orientation:landscape) {
@@ -6647,12 +6592,13 @@ REVIEWS.HTML
 
   .why-us {
     display: block;
-    width: 95%;
+    width: 90%;
     padding: 0.75em;
     border-radius: 3px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
     margin-inline: auto;
     margin-bottom: 2rem;
+    padding-bottom: 1.25rem;
   }
 
   .why-us-tile-grid {
@@ -6669,7 +6615,7 @@ REVIEWS.HTML
 
   .why-us-column-01-header {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     width: 85%;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #000;
     margin-inline: auto;
@@ -6677,7 +6623,7 @@ REVIEWS.HTML
 
   .why-us-tile-column-01-body {
     width: 65%;
-    font-weight: 550;
+    font-weight: 500;
     margin-inline: auto;
     line-height: 1.20em;
     text-align: center;
@@ -6714,7 +6660,7 @@ REVIEWS.HTML
   }
 
   .why-us-tile-column-02-img img {
-    width: 70%;
+    width: 65%;
     aspect-ratio: 1/0.55;
     display: block;
     margin-inline: auto;
@@ -6757,24 +6703,6 @@ REVIEWS.HTML
     transition: all 0.4s ease-in-out;
   }
 
-  .why-us-tile-column-02-img-grid {
-    margin-top: 1.5rem;
-    text-align: center;
-    word-spacing: 7rem;
-  }
-
-  .why-us-tile-column-02-img-grid img {
-    width: 7%;
-    height: auto;
-    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
-  }
-
-  .why-us-tile-column-02-img-grid img:hover {
-    border-radius: 50%;
-    transform: scale(1.1);
-    filter: brightness(120%);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-  }
 }
 
 @media only screen and (1025px <=width <=1399px) {
@@ -6922,6 +6850,7 @@ REVIEWS.HTML
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
     margin-inline: auto;
     margin-bottom: 2rem;
+    padding-bottom: 1.25rem;
   }
 
   .why-us-tile-grid {
@@ -6947,7 +6876,7 @@ REVIEWS.HTML
 
   .why-us-tile-column-01-body {
     width: 90%;
-    font-weight: 550;
+    font-weight: 500;
     margin-inline: auto;
     line-height: 1.15em;
     text-align: center;
@@ -6984,8 +6913,8 @@ REVIEWS.HTML
   }
 
   .why-us-tile-column-02-img img {
-    width: 95%;
-    aspect-ratio: 1/0.50;
+    width: 90%;
+    aspect-ratio: 1/0.55;
     display: block;
     margin-inline: auto;
   }
@@ -7027,24 +6956,6 @@ REVIEWS.HTML
     transition: all 0.4s ease-in-out;
   }
 
-  .why-us-tile-column-02-img-grid {
-    margin-top: 1.5rem;
-    text-align: center;
-    word-spacing: 7rem;
-  }
-
-  .why-us-tile-column-02-img-grid img {
-    width: 11%;
-    height: auto;
-    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
-  }
-
-  .why-us-tile-column-02-img-grid img:hover {
-    border-radius: 50%;
-    transform: scale(1.1);
-    filter: brightness(120%);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-  }
 }
 
 @media only screen and (1400px <=width) {
@@ -7107,8 +7018,8 @@ REVIEWS.HTML
   }
 
   .reviews-intro-column-02-img img {
-    width: 90%;
-    aspect-ratio: 1/0.60;
+    width: 85%;
+    aspect-ratio: 1/0.55;
     display: block;
     border-radius: 3px;
     margin-inline: auto;
@@ -7117,7 +7028,7 @@ REVIEWS.HTML
 
   .reviews-section {
     width: 100%;
-    margin-top: 1.75rem;
+    margin-top: 2.25rem;
     margin-inline: auto;
     display: block;
   }
@@ -7186,12 +7097,13 @@ REVIEWS.HTML
 
   .why-us {
     display: block;
-    width: 90%;
+    width: 85%;
     padding: 0.75em;
     border-radius: 3px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
     margin-inline: auto;
     margin-bottom: 2rem;
+    padding-bottom: 1.25rem;
   }
 
   .why-us-tile-grid {
@@ -7217,7 +7129,7 @@ REVIEWS.HTML
 
   .why-us-tile-column-01-body {
     width: 80%;
-    font-weight: 550;
+    font-weight: 500;
     margin-inline: auto;
     line-height: 1.25em;
     text-align: center;
@@ -7254,8 +7166,8 @@ REVIEWS.HTML
   }
 
   .why-us-tile-column-02-img img {
-    width: 90%;
-    aspect-ratio: 1/0.45;
+    width: 85%;
+    aspect-ratio: 1/0.55;
     display: block;
     margin-inline: auto;
   }
@@ -7297,24 +7209,6 @@ REVIEWS.HTML
     transition: all 0.4s ease-in-out;
   }
 
-  .why-us-tile-column-02-img-grid {
-    margin-top: 1.5rem;
-    text-align: center;
-    word-spacing: 7rem;
-  }
-
-  .why-us-tile-column-02-img-grid img {
-    width: 9%;
-    height: auto;
-    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
-  }
-
-  .why-us-tile-column-02-img-grid img:hover {
-    border-radius: 50%;
-    transform: scale(1.1);
-    filter: brightness(120%);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-  }
 }
 
 /* =====================
@@ -9985,21 +9879,20 @@ THIS IS A SHARED ASSET
 
   .shared-social-bar-header {
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     width: 85%;
     font-weight: 500;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #000;
-    line-height: 1.25em;
+    line-height: 1.15em;
     margin-inline: auto;
     padding: 0.75em 0 0;
   }
 
   .shared-social-bar-grid {
-    display: grid;
+    display: block;
     width: 95%;
     margin-top: 0.5rem;
     margin-inline: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
   .shared-social-bar-tile {
@@ -10009,7 +9902,7 @@ THIS IS A SHARED ASSET
   }
 
   .shared-social-bar-tile img {
-    width: 40%;
+    width: 13%;
     display: block;
     margin-inline: auto;
   }
@@ -10020,7 +9913,7 @@ THIS IS A SHARED ASSET
     width: 95%;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #000;
     margin-inline: auto;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -10037,17 +9930,16 @@ THIS IS A SHARED ASSET
     width: 70%;
     font-weight: 500;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #000;
-    line-height: 1.25em;
+    line-height: 1.15em;
     margin-inline: auto;
     padding: 0.75em 0 0;
   }
 
   .shared-social-bar-grid {
-    display: grid;
+    display: block;
     width: 70%;
     margin-top: 0.5rem;
     margin-inline: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
   .shared-social-bar-tile {
@@ -10057,7 +9949,7 @@ THIS IS A SHARED ASSET
   }
 
   .shared-social-bar-tile img {
-    width: 40%;
+    width: 13%;
     display: block;
     margin-inline: auto;
   }
@@ -10068,7 +9960,7 @@ THIS IS A SHARED ASSET
     width: 95%;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #000;
     margin-inline: auto;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -10085,17 +9977,16 @@ THIS IS A SHARED ASSET
     width: 70%;
     font-weight: 500;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #000;
-    line-height: 1.25em;
+    line-height: 1.15em;
     margin-inline: auto;
     padding: 0.75em 0 0;
   }
 
   .shared-social-bar-grid {
-    display: grid;
+    display: block;
     width: 70%;
     margin-top: 0.5rem;
     margin-inline: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
   .shared-social-bar-tile {
@@ -10105,7 +9996,7 @@ THIS IS A SHARED ASSET
   }
 
   .shared-social-bar-tile img {
-    width: 35%;
+    width: 10%;
     display: block;
     margin-inline: auto;
   }
@@ -10116,7 +10007,7 @@ THIS IS A SHARED ASSET
     width: 95%;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #000;
     margin-inline: auto;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -10133,17 +10024,16 @@ THIS IS A SHARED ASSET
     width: 70%;
     font-weight: 500;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #000;
-    line-height: 1.25em;
+    line-height: 1.15em;
     margin-inline: auto;
     padding: 0.75em 0 0;
   }
 
   .shared-social-bar-grid {
-    display: grid;
+    display: block;
     width: 60%;
     margin-top: 0.5rem;
     margin-inline: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
   .shared-social-bar-tile {
@@ -10153,7 +10043,7 @@ THIS IS A SHARED ASSET
   }
 
   .shared-social-bar-tile img {
-    width: 35%;
+    width: 10%;
     display: block;
     margin-inline: auto;
   }
@@ -10178,20 +10068,19 @@ THIS IS A SHARED ASSET
   .shared-social-bar-header {
     text-align: center;
     font-size: 2.1rem;
-    width: 70%;
+    width: 60%;
     font-weight: 500;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #000;
-    line-height: 1.25em;
+    line-height: 1.15em;
     margin-inline: auto;
     padding: 0.75em 0 0;
   }
 
   .shared-social-bar-grid {
-    display: grid;
+    display: block;
     width: 65%;
     margin-top: 0.5rem;
     margin-inline: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
   .shared-social-bar-tile {
@@ -10201,7 +10090,7 @@ THIS IS A SHARED ASSET
   }
 
   .shared-social-bar-tile img {
-    width: 28%;
+    width: 8%;
     display: block;
     margin-inline: auto;
   }
@@ -10225,21 +10114,20 @@ THIS IS A SHARED ASSET
 
   .shared-social-bar-header {
     text-align: center;
-    font-size: 2.1rem;
-    width: 70%;
+    font-size: 2.2rem;
+    width: 50%;
     font-weight: 500;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #000;
-    line-height: 1.25em;
+    line-height: 1.15em;
     margin-inline: auto;
     padding: 0.75em 0 0;
   }
 
   .shared-social-bar-grid {
-    display: grid;
+    display: block;
     width: 65%;
     margin-top: 0.5rem;
     margin-inline: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
   .shared-social-bar-tile {
@@ -10249,7 +10137,7 @@ THIS IS A SHARED ASSET
   }
 
   .shared-social-bar-tile img {
-    width: 24%;
+    width: 7%;
     display: block;
     margin-inline: auto;
   }
