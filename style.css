@@ -214,7 +214,7 @@ button {
 
   .specialize-in-header-02 {
     text-align: center;
-    width: 90%;
+    width: 95%;
     font-weight: 500;
     margin-top: 1.5rem;
     margin-inline: auto;
@@ -226,14 +226,24 @@ button {
     font-weight: 600;
   }
 
-  .specialize-in-column-02-img img {
-    width: 80%;
-    height: auto;
-    margin-top: 0.25rem;
+  .specialize-in-column-02-grid {
+    width: 95%;
+    margin-top: 1rem;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .specialize-in-column-02-tile {
+    width: 100%;
     display: block;
     margin-inline: auto;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
+  }
+
+  .specialize-in-column-02-tile img {
+    width: 80%;
+    display: block;
+    margin-inline: auto;
   }
 
   .problems-body-bottom {
@@ -601,20 +611,36 @@ button {
     text-align: center;
     width: 85%;
     margin-top: 1.5rem;
+    font-weight: 500;
     margin-inline: auto;
     font-size: 1.4rem;
     line-height: 1.25em;
   }
 
-  .specialize-in-column-02-img img {
-    width: 65%;
-    height: auto;
-    margin-top: 0.25rem;
+  .specialize-in-header-02 span {
+    font-weight: 600;
+  }
+
+  .specialize-in-column-02-grid {
+    width: 90%;
+    margin-top: 1rem;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .specialize-in-column-02-tile {
+    width: 100%;
     display: block;
     margin-inline: auto;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
   }
+
+  .specialize-in-column-02-tile img {
+    width: 75%;
+    display: block;
+    margin-inline: auto;
+  }
+
 
   .problems-body-bottom {
     width: 100%;
@@ -980,20 +1006,35 @@ button {
   .specialize-in-header-02 {
     text-align: center;
     width: 65%;
+    font-weight: 500;
     margin-top: 1.5rem;
     margin-inline: auto;
     font-size: 1.6rem;
     line-height: 1.25em;
   }
 
-  .specialize-in-column-02-img img {
-    width: 60%;
-    height: auto;
-    margin-top: 0.25rem;
+  .specialize-in-header-02 span {
+    font-weight: 600;
+  }
+
+  .specialize-in-column-02-grid {
+    width: 90%;
+    margin-top: 1rem;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .specialize-in-column-02-tile {
+    width: 100%;
     display: block;
     margin-inline: auto;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
+  }
+
+  .specialize-in-column-02-tile img {
+    width: 70%;
+    display: block;
+    margin-inline: auto;
   }
 
   .problems-body-bottom {
@@ -1097,7 +1138,7 @@ button {
   .choose-us-tile-body {
     text-align: center;
     font-size: 1.5rem;
-    width: 50%;
+    width: 60%;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #000;
     line-height: 1.35em;
     font-weight: 400;
@@ -1106,13 +1147,13 @@ button {
 
   .choose-us-tile-body-list {
     text-align: left;
-    width: 45%;
+    width: 55%;
     margin-top: 1rem;
     margin-inline: auto;
   }
 
   .choose-us-tile-body-list li {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 500;
     padding: 0 0 0.45em;
     line-height: 1.15em;
@@ -1359,21 +1400,43 @@ button {
   .specialize-in-header-02 {
     text-align: center;
     width: 65%;
+    font-weight: 500;
     margin-top: 1.5rem;
     margin-inline: auto;
     font-size: 1.6rem;
     line-height: 1.25em;
   }
 
-  .specialize-in-column-02-img img {
-    width: 60%;
-    height: auto;
-    margin-top: 0.25rem;
+  .specialize-in-header-02 span {
+    font-weight: 600;
+  }
+
+  .specialize-in-column-02-grid {
+    width: 75%;
+    margin-top: 1rem;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .specialize-in-column-02-tile {
+    width: 100%;
     display: block;
     margin-inline: auto;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
   }
+
+  .specialize-in-column-02-tile img {
+    width: 65%;
+    display: block;
+    margin-inline: auto;
+  }
+
+  .problems-body-bottom {
+    width: 100%;
+    margin-inline: auto;
+    display: block;
+  }
+
 
   .problems-body-bottom {
     width: 100%;
@@ -1476,7 +1539,7 @@ button {
   .choose-us-tile-body {
     text-align: center;
     font-size: 1.5rem;
-    width: 50%;
+    width: 60%;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #000;
     line-height: 1.35em;
     font-weight: 400;
@@ -1485,13 +1548,13 @@ button {
 
   .choose-us-tile-body-list {
     text-align: left;
-    width: 45%;
+    width: 55%;
     margin-top: 1rem;
     margin-inline: auto;
   }
 
   .choose-us-tile-body-list li {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 500;
     padding: 0 0 0.45em;
     line-height: 1.15em;
@@ -1739,20 +1802,35 @@ button {
   .specialize-in-header-02 {
     text-align: center;
     width: 65%;
+    font-weight: 500;
     margin-top: 1.5rem;
     margin-inline: auto;
     font-size: 1.6rem;
     line-height: 1.25em;
   }
 
-  .specialize-in-column-02-img img {
-    width: 60%;
-    height: auto;
-    margin-top: 0.25rem;
+  .specialize-in-header-02 span {
+    font-weight: 600;
+  }
+
+  .specialize-in-column-02-grid {
+    width: 75%;
+    margin-top: 1rem;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .specialize-in-column-02-tile {
+    width: 100%;
     display: block;
     margin-inline: auto;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
+  }
+
+  .specialize-in-column-02-tile img {
+    width: 65%;
+    display: block;
+    margin-inline: auto;
   }
 
   .problems-body-bottom {
@@ -1865,7 +1943,7 @@ button {
 
   .choose-us-tile-body-list {
     text-align: left;
-    width: 40%;
+    width: 50%;
     margin-top: 1rem;
     margin-inline: auto;
   }
@@ -2127,17 +2205,33 @@ button {
     width: 65%;
     margin-top: 1.5rem;
     margin-inline: auto;
-    font-size: 1.6rem;
+    font-weight: 500;
+    font-size: 1.7rem;
     line-height: 1.25em;
   }
 
-  .specialize-in-column-02-img img {
-    width: 60%;
-    height: auto;
+  .specialize-in-header-02 span {
+    font-weight: 600;
+  }
+
+  .specialize-in-column-02-grid {
+    width: 75%;
+    margin-top: 1.5rem;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .specialize-in-column-02-tile {
+    width: 100%;
     display: block;
     margin-inline: auto;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
+  }
+
+  .specialize-in-column-02-tile img {
+    width: 65%;
+    display: block;
+    margin-inline: auto;
   }
 
   .problems-body-bottom {
@@ -2231,7 +2325,7 @@ button {
 
   .choose-us-tile-header {
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     width: 80%;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #000;
     line-height: 1.20em;
@@ -2250,7 +2344,7 @@ button {
 
   .choose-us-tile-body-list {
     text-align: left;
-    width: 40%;
+    width: 45%;
     margin-top: 1rem;
     margin-inline: auto;
   }
@@ -2597,13 +2691,23 @@ END OF ADD ON'S
     line-height: 1.15em;
     margin-inline: auto;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 
-  .best-brands img {
-    width: 98%;
-    height: auto;
-    min-height: 5rem;
+  .best-brands-grid {
+    display: grid;
+    width: 95%;
+    margin-inline: auto;
+    margin-top: 0.75rem;
+    margin-bottom: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .best-brands-tile {
+    width: 100%;
+    margin-inline: auto;
+  }
+  .best-brands-tile img {
+    width: 80%;
     display: block;
     margin-inline: auto;
   }
@@ -2611,7 +2715,7 @@ END OF ADD ON'S
 
 @media only screen and (320px <=width <=768px) and (orientation:landscape) {
   .hero-services-img {
-    background-image: url(img/our-services-hero.jpg  );
+    background-image: url(img/our-services-hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2847,13 +2951,23 @@ END OF ADD ON'S
     line-height: 1.15em;
     margin-inline: auto;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
-  .best-brands img {
-    width: 98%;
-    height: auto;
-    min-height: 6rem;
+  .best-brands-grid {
+    display: grid;
+    width: 85%;
+    margin-inline: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .best-brands-tile {
+    width: 100%;
+    margin-inline: auto;
+  }
+  .best-brands-tile img {
+    width: 65%;
     display: block;
     margin-inline: auto;
   }
@@ -3096,13 +3210,22 @@ END OF ADD ON'S
     line-height: 1.15em;
     margin-inline: auto;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
-
-  .best-brands img {
-    width: 98%;
-    height: auto;
-    min-height: 7rem;
+  .best-brands-grid {
+    display: grid;
+    width: 85%;
+    margin-inline: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+  }
+  .best-brands-tile {
+    width: 95%;
+    margin-inline: auto;
+  }
+  .best-brands-tile img {
+    width: 60%;
     display: block;
     margin-inline: auto;
   }
@@ -3342,18 +3465,28 @@ END OF ADD ON'S
   }
 
   .best-brands-header {
-    width: 90%;
+    width: 75%;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #000;
     line-height: 1.15em;
     margin-inline: auto;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
   }
 
-  .best-brands img {
-    width: 98%;
-    height: auto;
-    min-height: 7rem;
+  .best-brands-grid {
+    display: grid;
+    width: 95%;
+    margin-inline: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .best-brands-tile {
+    width: 90%;
+    margin-inline: auto;
+  }
+  .best-brands-tile img {
+    width: 100%;
     display: block;
     margin-inline: auto;
   }
@@ -3593,18 +3726,28 @@ END OF ADD ON'S
   }
 
   .best-brands-header {
-    width: 90%;
+    width: 70%;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #000;
     line-height: 1.15em;
     margin-inline: auto;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
   }
 
-  .best-brands img {
-    width: 98%;
-    height: auto;
-    min-height: 7rem;
+  .best-brands-grid {
+    display: grid;
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .best-brands-tile {
+    width: 100%;
+    margin-inline: auto;
+  }
+  .best-brands-tile img {
+    width: 90%;
     display: block;
     margin-inline: auto;
   }
@@ -3844,18 +3987,28 @@ END OF ADD ON'S
   }
 
   .best-brands-header {
-    width: 75%;
+    width: 70%;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #000;
     line-height: 1.15em;
     margin-inline: auto;
     text-align: center;
-    font-size: 1.9rem;
+    font-size: 2rem;
   }
 
-  .best-brands img {
-    width: 90%;
-    height: auto;
-    min-height: 7.5rem;
+  .best-brands-grid {
+    display: grid;
+    width: 85%;
+    margin-inline: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .best-brands-tile {
+    width: 100%;
+    margin-inline: auto;
+  }
+  .best-brands-tile img {
+    width: 85%;
     display: block;
     margin-inline: auto;
   }
@@ -4569,7 +4722,7 @@ CONTACT-US.HTML
     margin-inline: auto;
     margin-top: 0.75rem;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
   }
 
   .why-us-tile {
@@ -4784,7 +4937,7 @@ CONTACT-US.HTML
 
 @media only screen and (769px <=width <=1024px) and (orientation:landscape) {
   .hero-contact-img {
-    background-image: url(img/our-services-hero.jpg);
+    background-image: url(img/contact-us-hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4869,7 +5022,7 @@ CONTACT-US.HTML
     margin-inline: auto;
     margin-top: 0.75rem;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
   }
 
   .why-us-tile {
@@ -4928,7 +5081,7 @@ CONTACT-US.HTML
 
   .our-location-review-grid {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     width: 95%;
     margin-inline: auto;
   }
@@ -5386,7 +5539,7 @@ CONTACT-US.HTML
 
 @media only screen and (1400px <=width) {
   .hero-contact-img {
-    background-image: url(img/our-services-hero.jpg);
+    background-image: url(img/contact-us-hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -6157,7 +6310,7 @@ REVIEWS.HTML
   }
 
   .why-us-tile-column-02-img img {
-    width: 80%;
+    width: 70%;
     aspect-ratio: 1/0.60;
     display: block;
     margin-inline: auto;
@@ -6289,9 +6442,9 @@ REVIEWS.HTML
 
   .reviews-section-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     width: 95%;
-    margin-top: 0.25rem;
+    margin-top: 1.25rem;
     margin-inline: auto;
     gap: 0.75em;
   }
@@ -6301,7 +6454,7 @@ REVIEWS.HTML
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 0.75em;
-    width: 100%;
+    width: 60%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(255, 255, 255, 0.5);
     margin-inline: auto;
     margin-bottom: 1.25rem;
@@ -6312,12 +6465,12 @@ REVIEWS.HTML
   }
 
   .reviews-section-tile-top img {
-    width: 14%;
+    width: 12%;
   }
 
   .reviews-section-tile-top-name {
     line-height: 1.25em;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin: 1.5% 2.5% 0;
   }
 
@@ -6334,7 +6487,7 @@ REVIEWS.HTML
   .reviews-section-tile-body {
     font-weight: 500;
     width: 95%;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.20em;
     margin: 0.25em 0.25em 0;
   }
@@ -6513,8 +6666,8 @@ REVIEWS.HTML
   }
 
   .reviews-intro-column-02-img img {
-    width: 65%;
-    aspect-ratio: 1/0.50;
+    width: 60%;
+    aspect-ratio: 1/0.55;
     display: block;
     border-radius: 3px;
     margin-inline: auto;
@@ -6791,8 +6944,7 @@ REVIEWS.HTML
   }
 
   .reviews-section-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: block;
     width: 95%;
     margin-top: 0.25rem;
     margin-inline: auto;
@@ -6804,7 +6956,7 @@ REVIEWS.HTML
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 0.75em;
-    width: 100%;
+    width: 55%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(255, 255, 255, 0.5);
     margin-inline: auto;
     margin-bottom: 1.25rem;
@@ -6815,12 +6967,12 @@ REVIEWS.HTML
   }
 
   .reviews-section-tile-top img {
-    width: 14%;
+    width: 10%;
   }
 
   .reviews-section-tile-top-name {
     line-height: 1.25em;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin: 1.5% 2.5% 0;
   }
 
@@ -6837,7 +6989,7 @@ REVIEWS.HTML
   .reviews-section-tile-body {
     font-weight: 500;
     width: 90%;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.20em;
     margin: 0.25em 0.25em 0;
   }
@@ -7044,9 +7196,8 @@ REVIEWS.HTML
   }
 
   .reviews-section-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 75%;
+    display: block;
+    width: 43%;
     margin-top: 1rem;
     margin-inline: auto;
     gap: 0.75em;
@@ -7068,7 +7219,7 @@ REVIEWS.HTML
   }
 
   .reviews-section-tile-top img {
-    width: 11%;
+    width: 9%;
   }
 
   .reviews-section-tile-top-name {
@@ -7090,9 +7241,9 @@ REVIEWS.HTML
   .reviews-section-tile-body {
     font-weight: 500;
     width: 90%;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.20em;
-    margin: 0.5em 0.25em 0;
+    margin: 0.25em 0.25em 0;
   }
 
   .why-us {
@@ -9865,6 +10016,7 @@ THIS IS A SHARED ASSET
   border: 2px solid #aaa;
   background-color: var(--base-gray);
 }
+
 /*==================
  SHARED-SOCIAL-BAR
 ==================== */
