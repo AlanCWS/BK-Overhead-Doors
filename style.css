@@ -10762,7 +10762,7 @@ LAST MIN ADD ON'S
   .carousel {
     position: relative;
     width: 85%;
-    max-height: 25rem;
+    max-height: 29rem;
     height: 100%;
     margin: 1em auto;
     overflow: hidden;
@@ -10786,7 +10786,8 @@ LAST MIN ADD ON'S
     max-height: 100%;
     display: block;
     margin: auto;
-    aspect-ratio: 1/1;
+    object-fit: cover;
+    aspect-ratio: 1/0.90;
     flex-shrink: 0;
   }
 
