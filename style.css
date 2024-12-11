@@ -2702,10 +2702,12 @@ END OF ADD ON'S
     margin-bottom: 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
   .best-brands-tile {
     width: 100%;
     margin-inline: auto;
   }
+
   .best-brands-tile img {
     width: 80%;
     display: block;
@@ -2962,10 +2964,12 @@ END OF ADD ON'S
     margin-bottom: 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
   .best-brands-tile {
     width: 100%;
     margin-inline: auto;
   }
+
   .best-brands-tile img {
     width: 65%;
     display: block;
@@ -3212,18 +3216,21 @@ END OF ADD ON'S
     text-align: center;
     font-size: 1.8rem;
   }
+
   .best-brands-grid {
     display: grid;
     width: 85%;
     margin-inline: auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    grid-template-columns:  1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
   .best-brands-tile {
     width: 95%;
     margin-inline: auto;
   }
+
   .best-brands-tile img {
     width: 60%;
     display: block;
@@ -3481,10 +3488,12 @@ END OF ADD ON'S
     margin-bottom: 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
+
   .best-brands-tile {
     width: 90%;
     margin-inline: auto;
   }
+
   .best-brands-tile img {
     width: 100%;
     display: block;
@@ -3742,10 +3751,12 @@ END OF ADD ON'S
     margin-bottom: 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
+
   .best-brands-tile {
     width: 100%;
     margin-inline: auto;
   }
+
   .best-brands-tile img {
     width: 90%;
     display: block;
@@ -4003,10 +4014,12 @@ END OF ADD ON'S
     margin-bottom: 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
+
   .best-brands-tile {
     width: 100%;
     margin-inline: auto;
   }
+
   .best-brands-tile img {
     width: 85%;
     display: block;
@@ -10669,10 +10682,11 @@ LAST MIN ADD ON'S
   .carousel-container img {
     width: 100%;
     height: 100%;
+    aspect-ratio: 1/1;
     display: block;
     margin: auto;
     object-fit: cover;
-    flex-shrink: 0;;
+    flex-shrink: 0;
   }
 
   /* Navigation Buttons */
@@ -10727,7 +10741,11 @@ LAST MIN ADD ON'S
 
   .carousel-container img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    display: block;
+    aspect-ratio: 1/1;
+    margin: auto;
+    object-fit: cover;
     flex-shrink: 0;
   }
 
@@ -10785,12 +10803,12 @@ LAST MIN ADD ON'S
   }
 
   .carousel-container img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
     display: block;
     margin: auto;
+    aspect-ratio: 1/1;
     object-fit: cover;
-    aspect-ratio: 1/0.90;
     flex-shrink: 0;
   }
 
@@ -10845,12 +10863,12 @@ LAST MIN ADD ON'S
   }
 
   .carousel-container img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
     display: block;
+    aspect-ratio: 1/1;
     margin: auto;
     object-fit: cover;
-    aspect-ratio: 1/0.90;
     flex-shrink: 0;
   }
 
@@ -10905,12 +10923,12 @@ LAST MIN ADD ON'S
   }
 
   .carousel-container img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
     display: block;
     margin: auto;
+    aspect-ratio: 1/1;
     object-fit: cover;
-    aspect-ratio: 1/0.90;
     flex-shrink: 0;
   }
 
@@ -10965,12 +10983,12 @@ LAST MIN ADD ON'S
   }
 
   .carousel-container img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
     display: block;
     margin: auto;
     object-fit: cover;
-    aspect-ratio: 1/0.90;
+    aspect-ratio: 1/1;
     flex-shrink: 0;
   }
 
