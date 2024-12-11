@@ -11164,7 +11164,7 @@ LAST MIN ADD ON'S
   .nav>.nav-header {
     flex: 0.95;
     height: 4.75rem;
-    padding: 1.15rem 0.5em 0;
+    padding: 1.25rem 0.5em 0;
   }
 
   .nav>.nav-header>.nav-title {
@@ -11182,7 +11182,7 @@ LAST MIN ADD ON'S
 
   .nav>.nav-list {
     display: flex;
-    gap: 0.75em;
+    gap: 0.65em;
   }
 
   .nav>.nav-list>li {
@@ -11193,7 +11193,7 @@ LAST MIN ADD ON'S
     text-decoration: none;
     color: white;
     text-wrap: nowrap;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     cursor: pointer;
     transition: all 0.3s ease;
   }
