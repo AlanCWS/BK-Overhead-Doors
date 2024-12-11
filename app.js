@@ -21,7 +21,7 @@ carousels.forEach(carousel => {
   nextButton.addEventListener('click', () => moveSlide(1));
 
   // Auto-play for this carousel
-  let autoPlay = setInterval(() => moveSlide(1), 9000);
+  let autoPlay = setInterval(() => moveSlide(1), 3000);
 
   // Pause auto-play on hover
   carousel.addEventListener('mouseover', () => clearInterval(autoPlay));
