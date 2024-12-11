@@ -10667,12 +10667,11 @@ LAST MIN ADD ON'S
   }
 
   .carousel-container img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
     display: block;
     margin: auto;
     object-fit: cover;
-    aspect-ratio: 1/0.90;
     flex-shrink: 0;;
   }
 
