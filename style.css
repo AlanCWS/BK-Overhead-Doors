@@ -8737,11 +8737,6 @@ DOOR-STYLE-TYPE.HTML
     margin-bottom: 1.75rem;
   }
 
-  .different-door-style-tile:last-child {
-    justify-content: center;
-    grid-column: 1/-1;
-    width: 50%;
-  }
 
   /*====================================
   THIS IS A SHARED ASSET
@@ -9053,12 +9048,6 @@ DOOR-STYLE-TYPE.HTML
     display: block;
     margin-inline: auto;
     margin-bottom: 1.75rem;
-  }
-
-  .different-door-style-tile:last-child {
-    justify-content: center;
-    grid-column: 1/-1;
-    width: 50%;
   }
 
   /*====================================
