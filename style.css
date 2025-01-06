@@ -3334,7 +3334,12 @@ END OF ADD ON'S
     padding-bottom: 1.75rem;
     margin-bottom: 1.25rem;
   }
-
+  .type-of-services-tile:last-child {
+    justify-content: center;
+    grid-column: span 2;
+    align-items: center;
+    width: 50%;
+  }
   .type-of-services-tile-header {
     background-color: var(--base-gray);
     color: white;
@@ -3597,7 +3602,12 @@ END OF ADD ON'S
     padding-bottom: 1.75rem;
     margin-bottom: 1.25rem;
   }
-
+  .type-of-services-tile:last-child {
+    justify-content: center;
+    grid-column: span 2;
+    align-items: center;
+    width: 50%;
+  }
   .type-of-services-tile-header {
     background-color: var(--base-gray);
     color: white;
@@ -3860,7 +3870,12 @@ END OF ADD ON'S
     padding-bottom: 1.75rem;
     margin-bottom: 1.25rem;
   }
-
+  .type-of-services-tile:last-child {
+    justify-content: center;
+    grid-column: span 2;
+    align-items: center;
+    width: 50%;
+  }
   .type-of-services-tile-header {
     background-color: var(--base-gray);
     color: white;
