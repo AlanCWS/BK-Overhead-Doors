@@ -240,6 +240,17 @@ button {
     margin-inline: auto;
   }
 
+  .specialize-in-column-02-tile:last-child {
+    grid-column: 1/-1;
+    width: 23%;
+  }
+
+  .specialize-in-column-02-tile {
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+  }
+
   .specialize-in-column-02-tile img {
     width: 80%;
     display: block;
@@ -627,6 +638,17 @@ button {
     margin-inline: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .specialize-in-column-02-tile {
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+  }
+
+  .specialize-in-column-02-tile:last-child {
+    grid-column: 1/-1;
+    width: 23%;
   }
 
   .specialize-in-column-02-tile {
@@ -1031,6 +1053,17 @@ button {
     margin-inline: auto;
   }
 
+  .specialize-in-column-02-tile:last-child {
+    grid-column: 1/-1;
+    width: 23%;
+  }
+
+  .specialize-in-column-02-tile {
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+  }
+
   .specialize-in-column-02-tile img {
     width: 70%;
     display: block;
@@ -1417,6 +1450,17 @@ button {
     margin-inline: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .specialize-in-column-02-tile {
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+  }
+
+  .specialize-in-column-02-tile:last-child {
+    grid-column: 1/-1;
+    width: 23%;
   }
 
   .specialize-in-column-02-tile {
@@ -1827,6 +1871,17 @@ button {
     margin-inline: auto;
   }
 
+  .specialize-in-column-02-tile {
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+  }
+
+  .specialize-in-column-02-tile:last-child {
+    grid-column: 1/-1;
+    width: 23%;
+  }
+
   .specialize-in-column-02-tile img {
     width: 65%;
     display: block;
@@ -2226,6 +2281,11 @@ button {
     width: 100%;
     display: block;
     margin-inline: auto;
+  }
+
+  .specialize-in-column-02-tile:last-child {
+    grid-column: 1/-1;
+    width: 23%;
   }
 
   .specialize-in-column-02-tile img {
@@ -3334,12 +3394,14 @@ END OF ADD ON'S
     padding-bottom: 1.75rem;
     margin-bottom: 1.25rem;
   }
+
   .type-of-services-tile:last-child {
     justify-content: center;
     grid-column: span 2;
     align-items: center;
     width: 50%;
   }
+
   .type-of-services-tile-header {
     background-color: var(--base-gray);
     color: white;
@@ -3602,12 +3664,14 @@ END OF ADD ON'S
     padding-bottom: 1.75rem;
     margin-bottom: 1.25rem;
   }
+
   .type-of-services-tile:last-child {
     justify-content: center;
     grid-column: span 2;
     align-items: center;
     width: 50%;
   }
+
   .type-of-services-tile-header {
     background-color: var(--base-gray);
     color: white;
@@ -3870,12 +3934,14 @@ END OF ADD ON'S
     padding-bottom: 1.75rem;
     margin-bottom: 1.25rem;
   }
+
   .type-of-services-tile:last-child {
     justify-content: center;
     grid-column: span 2;
     align-items: center;
     width: 50%;
   }
+
   .type-of-services-tile-header {
     background-color: var(--base-gray);
     color: white;
